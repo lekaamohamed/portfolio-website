@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Contact</title>
+    <style>
+        body{
+       background-color: rgb(0, 29, 38);
+       color: #aaa9a9;
+       text-align: center;
+       padding-top: 70px;
+       position: relative;
+       }
+       
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end; 
+    gap: 10px;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 95%; 
+    padding: 15px 20px; 
+    background-color: rgba(0, 29, 38, 0.6); 
+    z-index: 1000; 
+    margin: 0; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
+}
+li{
+    margin-right: 18px; 
+    margin-top: 17px;
+    font-size: 20px;
+    
+}
+a{
+    color: #E0E0E0;
+    text-decoration: none;
+}
+.edu{
+        display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  gap: 40px; 
+  margin-top: 50px;
+       }
+.edu img {
+  width: 20%;
+  height: auto; 
+}
+
+.edu .uni {
+  text-align: left;
+  max-width: 900px;
+  line-height: 28px; 
+  font-size: 20px;
+}
+
+hr{
+    margin-top: 30px;
+}
+.exp{
+        display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  gap: 40px; 
+  margin-top: 50px;
+       }
+.exp img {
+  width: 20%;
+  height: auto;
+  margin-top: 55px; 
+}
+
+.exp .ex {
+  text-align: left;
+  max-width: 900px;
+  line-height: 28px; 
+  font-size: 20px;
+}
+
+hr{
+    margin-top: 30px;
+    
+}
+.project{
+        display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  gap: 40px; 
+  margin-top: 50px;
+       }
+.project img {
+  width: 20%;
+  height: auto; 
+}
+
+.project .pro {
+  text-align: left;
+  max-width: 900px;
+  line-height: 28px; 
+  font-size: 20px;
+}
+
+hr{
+    margin-top: 30px;
+    
+}
+.project2{
+        display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; 
+  gap: 40px; 
+  margin-top: 50px;
+  margin-left: 150px;
+       }
+.project2 img {
+  width: 25%;
+ 
+  margin-top: 40px;
+   
+}
+
+.project2 .pro2 {
+  text-align: left;
+  max-width: 900px;
+  line-height: 28px; 
+  font-size: 20px;
+}
+.h{
+    font-size: 40px;
+    color: #E0E0E0;
+}
+hr{
+    margin-top: 30px;
+    
+}
+h3{
+    color:#E0E0E0;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    margin: 100px,auto;
+    
+}
+.container .div1{
+     grid-column: span 1;
+     text-align: left;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     margin-top: 20px;
+     gap: 10px;
+    }
+
+.container .div1 div{
+    width: 300px;
+    height: 15px;
+    border-radius: 140px;
+    border: 1px solid #E0E0E0;
+    background-color: rgba(224, 224, 224,0);
+    position: relative;
+}
+#html,#css,#sql,#py,#js,#en{
+    position: absolute;
+    height: 15px;
+    border-radius: 140px;
+    border: 1px solid #E0E0E0;
+    background-color: rgba(224, 224, 224,0);
+    
+}
+#html{
+    animation: html 3s linear forwards;
+    animation-delay: 15s;
+}
+@keyframes html{
+    0%{
+        width: 0;
+        background-color: #E0E0E0;
+
+    }
+    100%{
+        width: 300px;
+        background-color: #E0E0E0;
+    }
+}
+#css{ 
+    animation: css 3s linear forwards;
+    animation-delay: 15s;
+}
+@keyframes css{
+    0%{
+        width: 0;
+        background-color: #E0E0E0;
+    }
+    100%{
+        width:290px ;
+        background-color: #E0E0E0;
+    }
+}
+#js{
+    animation: js 3s linear forwards;
+    animation-delay: 15s;
+}
+@keyframes js{
+    0%{
+        width: 0;
+        background-color: #E0E0E0;
+    }
+    100%{
+        width: 275px;
+        background-color: #E0E0E0;
+    }
+}
+#py{
+    animation: py 3s linear forwards;
+    animation-delay: 15s;
+}
+@keyframes py{
+    0%{
+        width: 0;
+        background-color: #E0E0E0;
+    }
+    100%{
+        width: 230px;
+        background-color: #E0E0E0;
+    }
+}
+#sql{
+    animation: sql 3s linear forwards;
+    animation-delay: 15s;
+}
+@keyframes sql{
+    0%{
+        width: 0;
+        background-color: #E0E0E0;
+    }
+    100%{
+        width: 220px;
+        background-color: #E0E0E0;
+    }
+}
+#en{
+    animation: en 3s linear forwards;
+    animation-delay: 15s;
+}
+@keyframes en{
+    0%{
+        width: 0;
+        background-color: #E0E0E0;
+    }
+    100%{
+        width: 265px;
+        background-color: #E0E0E0;
+    }
+}
+
+.icon{
+        
+        margin-top: 100px;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+        font-size: 25px;
+       }
+
+       .cover{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+         height: 3300px;
+         z-index: 5000;
+         background-color:rgb(0, 29, 38) ;
+        animation: cover 13s linear forwards;
+       }
+       @keyframes cover{
+        0%{
+            height: 3300px;
+        }
+        100%{
+            height:0%;
+        }
+       }
+
+
+</style>
+</head>
+<body>
+     
+    <nav>
+        <ul >
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+     <h2 class="h">Education..</h2>
+    <div class="edu">
+        
+       <img src="images/edu.png" >
+        <div class="uni">
+        
+       
+            <p>
+                University of Damietta, Faculty of Computers and Artificial Intelligence (FCAI) <br>
+                ( Oct 2023 – Present)<br><br><br>
+               • Major: Information Technology (IT)<br>
+               • GPA: 3.24/4.0 (Very Good)<br>
+               • Relevant Courses: Database Systems, Web Development, Data Structures and AI Fundamentals<br>
+               • Academic Projects: Bank Management System, Wedding & Event Organization Website (Analysis), 
+                Football Stadium Ticket Booking System (Analysis), Orphanage Management System (Concept)
+            </p>
+        
+        
+        </div>
+    </div>
+         <hr width="800px">
+
+    <h2 class="h">Experience..</h2>
+    <div class="exp">
+        
+       
+        <div class="ex">
+        
+       
+            <p>
+                <h4 style="font-size: 20px; color: #E0E0E0;">- Frontend React.js Intern Digital Egypt Pioneers Initiative-DEPI</h4> 
+                (Jul 2025 – present)<br>
+               • Proficient in semantic HTML5, CSS3, and modern JavaScript for responsive, accessible web development.<br>
+               • Developed 3+ web applications implementing industry best practices including (Semantic HTML5 for 30%
+               better performance, CSS3 animations to enhance user engagement).<br>
+              • Enhanced technical skills by Collaborating on 2-3 training projects peers.<br>
+              • Improved task completion speed through practical implementation.<br>
+              <hr width="400px">
+              <h4 style="font-size: 20px;color: #E0E0E0;">- Frontend Development Trainee, Institute of Electrical and Electronics
+              Engineers-IEEE</h4>
+              (Apr 2025 – Present)<br>
+              • Architected 3+ responsive web interfaces for chapter events using HTML5, CSS3 , and JavaScript.<br>
+              <hr width="400px">
+              <h4 style="font-size: 20px;color: #E0E0E0;">- ITI trainee, Information Technology Institute-ITI </h4>
+              (Sep 2024 – Oct 2024)<br>
+             • Mastered core programming concepts through 120+ hours of training in Python, Algorithms (Big-O), and Web
+              Development (HTML5/CSS3/JS).<br>
+             • Built 4 functional projects including Coffee Shop Website achieving 100% responsiveness across all devices.
+            </p>
+        
+        
+        </div>
+        <img src="images/exp.png" >
+    </div>
+         <hr width="800px">
+
+         <h2 class="h">Projects..</h2>
+    <div class="project">
+        
+       <img src="images/project.png" >
+        <div class="pro">
+        
+       
+            <p>
+                <h3>Web Development Projects:</h3>
+               Personal Portfolio Website <br>
+               • Developed a responsive personal portfolio from scratch using HTML5 and CSS3.<br>
+               • Utilized CSS Grid and Flexbox to ensure fully responsive layouts.<br>
+                <hr width="400px">
+               Coffee Shop Website<br>
+               • Designed and developed a responsive static website for a coffee shop using HTML5 and CSS3.<br>
+               • Applied advanced styling techniques including CSS Grid for complex layouts and Flexbox for responsive alignment.<br>
+               <hr width="400px">
+               To-Do List Application<br>
+              • Built an interactive To-Do List using JavaScript with features to add, check, and delete tasks.<br>
+              • Designed a clean and responsive user interface for seamless usage across devices.<br>
+               <hr width="400px">
+               Personal Portfolio Website (Second Version)<br>
+               • Created another version of a personal portfolio website to enhance design skills.<br>
+                • Focused on responsive layouts and a modern, user-friendly design.<br>
+            </p>
+        
+        
+        </div>
+    </div>
+      
+         <div class="project2">
+        
+       
+        <div class="pro2">
+        
+       
+            <p>
+                <h3>Analysis Projects:</h3>
+               Banking System Project <br>
+               • Designed a system to manage bank accounts and transactions..<br>
+               • Focused on system analysis, requirements gathering, and workflow design.<br>
+                <hr width="400px">
+               Event & Decoration Management Website<br>
+               • Conducted analysis for a platform to organize weddings, events, and meetings.<br>
+               • Defined system requirements, user roles, and booking workflows.<br>
+               <hr width="400px">
+               Football Stadium Ticket Booking System<br>
+              • Analyzed and designed a system for stadium ticket reservations.<br>
+              • Included features for seat selection, ticket purchasing, and user management.<br>
+               <hr width="400px">
+               Orphanage Management System<br>
+               • Proposed a platform to manage orphanages.<br>
+                • Focused on resource allocation, child management, and donation tracking.<br>
+            </p>
+        
+        
+        </div>
+        <img src="images/projectanalysis.png" >
+    </div>
+     <hr width="800px">
+     <h2 class="h">Skills..</h2>
+     <div class="container">
+        <div class="div1">
+            <span>HTML:</span>
+            <div>
+                <div id="html"></div>
+            </div>
+            <span>100%</span>
+        </div>
+        <div class="div1">
+            <span>CSS:</span>
+            <div>
+                <div id="css"></div>
+            </div>
+            <span>96%</span>
+        </div>
+        <div class="div1">
+            <span>JavaScript:</span>
+            <div>
+                <div id="js"></div>
+            </div>
+            <span>89%</span>
+        </div>
+        <div class="div1">
+            <span>Python:</span>
+                <div>
+                    <div id="py"></div>
+                </div>
+                <span>74%</span>
+            
+        </div>
+        <div class="div1">
+            <span>MySQL:</span>
+            <div>
+                <div id="sql"></div>
+            </div>
+            <span>65%</span>
+        </div>
+        <div class="div1">
+            <span>English:</span>
+            <div>
+                <div id="en"></div>
+            </div>
+            <span>80%</span>
+        </div>
+        
+     </div>
+
+
+     <div class="icon">
+            <a href="#"><i class="fab fa-facebook-f" style="color: rgb(47, 122, 214);"></i></a>
+            <a href="https://www.linkedin.com/in/lekaa-mohamed-23a785330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in" style="color: whitesmoke;"></i></a>
+            <a href="#"><i class="fab fa-instagram" style="color: purple;"></i></a>
+        <a href="#"><i class="fab fa-twitter" style="color: rgb(80, 144, 196);"></i></a>
+        <a href="#"><i class="fab fa-youtube" style="color: rgba(193, 11, 11, 0.816)"></i></a>
+        </div>
+
+        <div class="cover"></div>
+</body>
+</html>
